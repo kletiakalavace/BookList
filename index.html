@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Book List</title>
+    </head>
+    <body>
+
+      <div class="App_container" id="app">
+        <!-- Search box-->
+       <div class="search-box">
+         <input type="text" id="searchEntry" value=""/>
+         <span id="searchBook">Search</span>
+       </div>
+         <!-- Container for listing -->  
+        <ul id="bookList"></ul>
+        <!-- Pagination-->
+        <div class="pagination-block">
+          <span class="pageButton outline-none" id="button_prev">Prev</span>
+          <span class="pageButton outline-none" id="button_next">Next</span>
+        </div>
+
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+       <script src="index.js"></script>
+    </body>
+</html>
